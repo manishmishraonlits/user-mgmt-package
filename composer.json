@@ -11,6 +11,7 @@
             "email": "manishmishra.shg@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "require-dev": {
         "phpunit/phpunit": "^11.3"
     }
