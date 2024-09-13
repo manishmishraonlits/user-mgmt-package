@@ -1,8 +1,8 @@
 {
-    "name": "ols2401/user-mgmt-package",
+    "name": "manishmishraonlits/user-mgmt-package",
     "autoload": {
         "psr-4": {
-            "Ols2401\\UserMgmtPackage\\": "src/app/"
+            "UserMgmtPackage\\": "src/app/"
         }
     },
     "authors": [

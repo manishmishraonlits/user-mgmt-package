@@ -1,4 +1,4 @@
-namespace Ols2401/UserMgmtPackage/Http/Controllers;
+namespace UserMgmtPackage/Http/Controllers;
 
 class UserController
 {
