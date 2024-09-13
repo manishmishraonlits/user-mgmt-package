@@ -1,0 +1,17 @@
+{
+    "name": "ols2401/user-mgmt-package",
+    "autoload": {
+        "psr-4": {
+            "Ols2401\\UserMgmtPackage\\": "src/app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Manish Kumar Mishra",
+            "email": "manishmishra.shg@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    }
+}
