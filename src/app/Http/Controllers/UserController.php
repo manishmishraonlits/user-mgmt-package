@@ -1,10 +1,12 @@
-namespace UserMgmtPackage/Http/Controllers;
+<?php
+
+namespace UserMgmtPackage\Http\Controllers;
 
 class UserController
 {
     public function index()
     {
-
+        return "User Controller!";
     }
 
     public function create()
