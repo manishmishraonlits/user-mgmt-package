@@ -5,6 +5,13 @@
             "UserMgmtPackage\\": "src/app/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "UserMgmtPackage\\Providers\\UserManagementProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "Manish Kumar Mishra",
