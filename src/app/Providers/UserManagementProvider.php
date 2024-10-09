@@ -6,15 +6,15 @@ use Illuminate\Support\ServiceProvider;
 
 class UserManagementProvider extends ServiceProvider
 {
-    /**
-     * Bootstrap services.
-     * 
-     * @return void
-     */
+   /**
+    * Bootstrap services.
+    * 
+    * @return void
+    */
 
-     public function boot()
-     {
-        $this->loadRoutesFrom(_DIR_.'/../routes/web.php');
-        $this->loadViewsFrom(_DIR.'/../resources/views', 'users.users');
-     }
+   public function boot()
+   {
+      $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
+      $this->loadViewsFrom(__DIR__ . '/../resources/views', 'users.users');
+   }
 }
